@@ -39,4 +39,18 @@ a {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+
+}
+
+a {
+  text-shadow: 2px 2px 0 var(--accent-color) ;
+  text-decoration: none;
+}
+a:hover {
+  border-bottom: 1px solid currentColor;
+}
+a:focus-visible {
+  border: 1px solid currentColor;
+  outline: none;
+  padding: 0 3px;
 }
