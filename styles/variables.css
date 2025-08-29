@@ -4,7 +4,7 @@
 */
 
 :root {
-    --main-font: "IBM Plex mono";
+    --main-font: "IBM Plex mono", monospace;
     --main-padding: 10px;
 
     --icon-rec: block;
@@ -12,8 +12,8 @@
     --page-bg-image: url("../images/cover-image-dark.png");
     --page-bg-color:  #000028;
 
-    --heading1-color: #DB00FF;
-    --heading2-color: #FF0070;
+    --title-main-color: #DB00FF;
+    --title-section-color: #FF0070;
 
     --header-menu: #FF0070;
     --header-menu-hover: rgba(255, 0, 112, 0.4);
